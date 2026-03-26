@@ -51,7 +51,7 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             TextField(
               controller: _emailController,
-              decoration: const InputDecoration(labelText: 'Email'),
+              decoration: const InputDecoration(labelText: 'Correo'),
             ),
             TextField(
               controller: _passwordController,
